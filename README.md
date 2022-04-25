@@ -3,7 +3,7 @@
 
 ```bash
 # Clone this repository
-git clone https://github.com/serialport/electron-serialport.git
+git clone https://github.com/ISONE-DEVOPS/electron-serialport.git
 # Go into the repository
 cd electron-serialport
 # Install dependencies
@@ -13,7 +13,4 @@ npm start
 ```
 
 
-## Other Example Apps
-
-
-#### License [CC0 1.0 (Public Domain)](LICENSE.md)
+#### License [CC0 1.0 (ISONE)](LICENSE.md)
