@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Monitor de Blança</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        .peso {
+            text-align: center !important;
+            vertical-align: bottom !important;
+            padding: 80px;
+            background-color: #fff;
+            margin: 10% 20% 0 20%;
+        }
+
+        #error {
+            margin-top: 3%;
+            color: rgb(122, 12, 12);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Teste Monitor de Blança</h1>
+
+    Used libraries Node.js <span id="node-version"></span>, Chromium <span id="chrome-version"></span>, Electron <span
+        id="electron-version"></span>, and Serialport <span id="serialport-version"></span>
+
+    <div id="error"></div> 
+    <div class="row" style="text-align: center;">
+        <label for="ports">Porta Serial:</label><br>
+        <select name="ports" id="selListPort">
+            <option value="">--- Selecione ---</option> 
+        </select>
+    </div>
+    <h2 id="currentweight" class="peso">0 kg</h2>
+</body>
+
+<script src="./reader.js"></script>
+
+</html>
